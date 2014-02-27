@@ -119,9 +119,9 @@ echo -e "${restore}"
 cp -vr $OUTPUT_DIR/`echo $AK_VER`.zip $CWM_MOVE
 echo
 
-cd $ANYKERNEL_DIR
-git reset --hard
-echo
+#cd $ANYKERNEL_DIR
+#git reset --hard
+#echo
 
 cd $KERNEL_DIR
 
